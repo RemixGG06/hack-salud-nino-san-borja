@@ -1,0 +1,31 @@
+[
+  {
+    "id": "H001",
+    "nombre": "Hospital Nacional Dos de Mayo",
+    "categoria": "III-1",
+    "patologias_cubiertas": [
+      "Nefropatías / enfermedad renal crónica / diálisis",
+      "Reumatología compleja"
+    ],
+    "departamento": "Lima",
+    "capacidad": "Hospital nacional de alta complejidad. Capaz de continuar terapia renal sustitutiva y manejo de LES.",
+    "limitacion": "Verificar cartera de Reumatología para biológicos específicos.",
+    "lat": -12.0558,
+    "lng": -77.0142,
+    "match_score": 95
+  },
+  {
+    "id": "H002",
+    "nombre": "Hospital Nacional Arzobispo Loayza",
+    "categoria": "III-1",
+    "patologias_cubiertas": [
+      "Neurología y neurodesarrollo complejo"
+    ],
+    "departamento": "Lima",
+    "capacidad": "Hospital nacional para neurología general/estabilización.",
+    "limitacion": "Confirmar disponibilidad de electroencefalografía.",
+    "lat": -12.0494,
+    "lng": -77.0426,
+    "match_score": 45
+  }
+]

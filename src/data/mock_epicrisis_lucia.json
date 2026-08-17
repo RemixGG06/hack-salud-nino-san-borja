@@ -1,0 +1,77 @@
+{
+  "informe_epicrisis_traslado": {
+    "metadatos_validacion": {
+      "estado_documento": "Resumen Estructurado y Firmado Digitalmente",
+      "medico_validador": "Dr. Carlos Ruiz (CMP 45678 - Especialista en Cardiología Pediátrica)",
+      "correo_contacto": "carlos.ruiz@insnsb.gob.pe",
+      "telefono_contacto": "(01) 230-0600 Anexo 4120 / +51 984 321 654",
+      "fecha_validacion": "2026-08-16T14:30:00",
+      "codigo_firma_digital": "INSN-FD-8923-2026",
+      "validez_oficial": "Válido según Ley de Firmas y Certificados Digitales N° 27269"
+    },
+    "paciente": {
+      "documento_identidad": "76543210",
+      "nombres_completos": "Lucía Mendoza Rivera",
+      "edad_anios": 17,
+      "meses": 10,
+      "sexo": "Femenino",
+      "tipo_seguro": "SIS Gratuito (Activo)"
+    },
+    "contexto_derivacion": {
+      "institucion_origen": "INSN San Borja",
+      "institucion_destino": "Hospital Nacional Dos de Mayo",
+      "motivo_clinico_traslado": "Transferencia definitiva a servicio de adultos por límite de edad institucional (18 años). Requiere seguimiento en Unidad de Cardiopatías Congénitas del Adulto (GUCH) por Cardiología y Cirugía Cardiovascular."
+    },
+    "resumen_curso_clinico": {
+      "antecedentes_relevantes": [
+        "Cardiopatía congénita corregida con parche de pericardio a los 4 años",
+        "Alergia medicamentosa a Penicilinas (urticaria y broncoespasmo)",
+        "Requiere profilaxis estricta para Endocarditis Infecciosa previo a procedimientos odontológicos o invasivos"
+      ],
+      "evolucion_hospitalaria": "Paciente con diagnóstico prenatal de cardiopatía congénita (Defecto del tabique ventricular grande con estenosis pulmonar infundibular). Sometida a corrección quirúrgica total a los 4 años con parche intracardíaco. Ha cursado controles anuales en el INSN San Borja con evolución favorable, en clase funcional NYHA I. Sin episodios sincopales ni arritmias complejas.",
+      "procedimientos_intervenciones_realizadas": [
+        {
+          "fecha": "2024-03-15",
+          "descripcion": "Ecocardiograma Transtorácico Doppler Color",
+          "hallazgos": "FEVI 60%, sin cortocircuito residual a través del parche. Insuficiencia pulmonar leve residual con gradiente de 18 mmHg. Cavidades derechas de dimensiones conservadas."
+        },
+        {
+          "fecha": "2026-07-20",
+          "descripcion": "Holter ECG de 24 horas",
+          "hallazgos": "Ritmo sinusal durante todo el registro. Frecuencia cardíaca media de 74 lpm. Extrasístoles ventriculares monomórficas aisladas escasas (<1%), sin rachas de taquicardia."
+        }
+      ]
+    },
+    "estado_actual_pre_traslado": {
+      "diagnosticos_activos": [
+        {
+          "codigo_cie10": "Q21.0",
+          "descripcion": "Cardiopatía congénita: Defecto del tabique ventricular corregido quirúrgicamente",
+          "estado": "Estable / Compensado (NYHA I)"
+        },
+        {
+          "codigo_cie10": "Z95.2",
+          "descripcion": "Presencia de parche intracardíaco protésico / Implante vascular",
+          "estado": "En seguimiento"
+        }
+      ],
+      "medicacion_activa_al_traslado": [
+        { "farmaco": "Enalapril" },
+        { "farmaco": "Bisoprolol" },
+        { "farmaco": "Ácido Acetilsalicílico (Aspirina)" }
+      ],
+      "evaluacion_psicosocial": "Paciente informada sobre los cuidados en su salud cardiovascular en la vida adulta. Comprensión adecuada de la importancia de la adherencia a la medicación y de la profilaxis de endocarditis."
+    },
+    "pendientes_y_plan": {
+      "examenes_pendientes_de_resultado": [
+        "Prueba de esfuerzo / Test de caminata de 6 minutos programada para el 1er trimestre en el hospital receptor."
+      ],
+      "recomendaciones_receptor": [
+        "Control ecocardiográfico anual para vigilar función del ventrículo derecho y regurgitación pulmonar residual.",
+        "Monitoreo con Holter de 24 horas cada 12 a 18 meses para detección precoz de arritmias auriculares o ventriculares.",
+        "Reforzar pautas de profilaxis para Endocarditis Infecciosa (Amoxicilina o Clindamicina 1h antes de procedimientos dentales).",
+        "Asesoramiento reproductivo y preconcepcional conjunto en Cardiología y Obstetricia de alto riesgo cuando corresponda."
+      ]
+    }
+  }
+}

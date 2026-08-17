@@ -1,0 +1,55 @@
+{
+  "ficha_referencia_minsa": {
+    "metadatos_validacion": {
+      "estado_documento": "Pre-llenado por IA - Aprobado por Médico",
+      "fecha_generacion": "2026-08-16T10:00:00",
+      "id_referencia": "REF-2026-INSN-04982"
+    },
+    "datos_paciente": {
+      "nombres": "Lucía",
+      "apellidos": "Mendoza Rivera",
+      "dni": "76543210",
+      "fecha_nacimiento": "2008-10-24",
+      "edad_actual": "17 años y 10 meses",
+      "sexo": "Femenino",
+      "tipo_seguro": "SIS Gratuito (Activo)",
+      "domicilio": "Jr. Las Gardenias 342, Surquillo, Lima",
+      "telefono_contacto": "+51 987 654 321",
+      "nombre_apoderado": "Rosa Rivera (Madre)"
+    },
+    "datos_establecimientos": {
+      "origen_renaes": "00001234 - INSN San Borja",
+      "ups_origen": "Cardiología Pediátrica",
+      "destino_sugerido_renaes": "00005678 - Hospital Nacional Dos de Mayo",
+      "ups_destino": "Cardiología Adultos y Cirugía Cardiovascular"
+    },
+    "resumen_clinico_referencia": {
+      "anamnesis_breve": "Paciente mujer de 17 años y 10 meses con diagnóstico de Cardiopatía Congénita (Defecto del tabique ventricular corregido quirúrgicamente). Clase funcional NYHA I, hemodinámicamente compensada en fase de seguimiento.",
+      "examen_fisico_breve": "PA: 110/70 mmHg, FC: 74 lpm, SatO2: 98% ambiental. Ruidos cardíacos rítmicos, soplo sistólico eyectivo II/VI en foco pulmonar residual, sin ingurgitación yugular ni edemas.",
+      "apoyo_al_diagnostico_adjuntos": [
+        "Ecocardiograma Transtorácico (Nov 2025) - FEVI 60%, función biventricular conservada",
+        "Holter 24 horas (Jul 2026) - Ritmo sinusal sin arritmias ventriculares complejas",
+        "Electrocardiograma y Radiografía de Tórax (Ago 2026) - Adjuntos"
+      ]
+    },
+    "diagnosticos_referencia": [
+      {
+        "descripcion": "Cardiopatía congénita corregida (Defecto del tabique ventricular / Tetralogía)",
+        "codigo_cie10": "Q21.0",
+        "tipo": "Definitivo"
+      },
+      {
+        "descripcion": "Presencia de implante / parche intracardíaco protésico",
+        "codigo_cie10": "Z95.2",
+        "tipo": "Definitivo"
+      }
+    ],
+    "condiciones_traslado": {
+      "motivo_referencia": "Continuidad de atención por mayoría de edad (18 años) en Unidad de Cardiopatías Congénitas del Adulto",
+      "prioridad": "Normal",
+      "especialidad_troncal": "Cardiología Adultos",
+      "especialidades_complementarias": ["Cirugía Cardiovascular Adultos", "Odontología (Profilaxis Endocarditis)", "Nutrición"],
+      "requiere_ambulancia": false
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ruta_18_paciente": {
+    "metadatos_validacion": {
+      "estado_documento": "Publicado y Disponible en App Móvil",
+      "fecha_emision": "2026-08-16",
+      "hospital_origen": "INSN San Borja",
+      "medico_pediatra": "Dr. Carlos Ruiz (Cardiología Pediátrica)"
+    },
+    "mi_diagnostico_explicado": {
+      "titulo": "¿Qué es mi Cardiopatía y cómo la cuido?",
+      "que_tengo": "Naciste con una Cardiopatía Congénita (un defecto en el tabique de tu corazón) que fue operada con éxito cuando tenías 4 años. Tu corazón funciona muy bien gracias a esa cirugía y a tus controles, pero necesita revisiones regulares de por vida para mantenerse fuerte.",
+      "que_significa_a_los_18": "Tu condición no cambia al cumplir 18 años. Lo que cambia es que ahora serás atendida por un equipo de cardiólogos de adultos que te tratarán como a una joven independiente. ¡Todo tu historial del INSN San Borja ya fue transferido a tu nuevo hospital!",
+      "mitos_y_verdades": [
+        {
+          "mito": "Como ya me operaron de niña, no necesito ir al cardiólogo",
+          "verdad": "Las cardiopatías corregidas requieren controles periódicos para vigilar que las válvulas y el ritmo del corazón sigan funcionando al 100%."
+        },
+        {
+          "mito": "No podré estudiar ni hacer ejercicio nunca",
+          "verdad": "Puedes estudiar, trabajar y realizar actividad física aeróbica moderada recomendada por tu cardiólogo."
+        }
+      ]
+    },
+    "mis_medicamentos_diarios": [
+      {
+        "nombre_comercial_o_simple": "Enalapril 5mg",
+        "para_que_sirve": "Ayuda a tu corazón a bombear sangre con menos esfuerzo y protege su estructura.",
+        "como_tomarlo": "1 pastilla todas las mañanas después del desayuno.",
+        "advertencia": "Tómala a la misma hora todos los días."
+      },
+      {
+        "nombre_comercial_o_simple": "Bisoprolol 2.5mg",
+        "para_que_sirve": "Mantiene tus latidos a un ritmo tranquilo y previene palpitaciones.",
+        "como_tomarlo": "1 pastilla al día con un vaso con agua.",
+        "advertencia": "No la suspendas abruptamente sin consultar a tu cardiólogo."
+      },
+      {
+        "nombre_comercial_o_simple": "Aspirina Infantil 100mg",
+        "para_que_sirve": "Protege el parche de tu corazón y previene coágulos.",
+        "como_tomarlo": "1 pastilla diaria junto con el almuerzo.",
+        "advertencia": "Infórmale a tu dentista que tomas este medicamento antes de cualquier curación o extracción."
+      }
+    ],
+    "mis_senales_de_alerta": [
+      "Palpitaciones muy rápidas o sensación de vuelco en el pecho que dura varios minutos.",
+      "Falta de aire o cansancio inusual al realizar caminatas suaves que antes hacías sin problema.",
+      "Hinchazón notoria en tobillos o pies al final del día.",
+      "Fiebre inexplicable por más de 48 horas (requiere descarte de infección en el corazón / endocarditis)."
+    ],
+    "mi_proximo_hospital": {
+      "nombre_hospital": "Hospital Nacional Dos de Mayo",
+      "categoria": "Hospital Nacional III-1",
+      "direccion": "Parque de la Historia de la Medicina Peruana s/n, Cercado de Lima",
+      "referencia": "Frente a la Plaza Bolognesi / Av. Grau",
+      "servicio_donde_ire": "Consultorio Externo de Cardiología Adultos - Pabellón 3 (Piso 1)",
+      "medico_receptor": "Dr. Fernando Morales (Cardiología Adultos)",
+      "fecha_cita": "2026-09-02",
+      "hora_cita": "08:30 AM",
+      "puerta_ingreso": "Puerta Principal N° 2 (Jr. Miro Quesada)",
+      "que_debo_llevar": [
+        "Tu DNI físico vigente",
+        "Mostrar este pase / QR en tu celular",
+        "Estar 30 minutos antes de tu cita (08:00 AM) para apertura de historia clínica de adultos"
+      ]
+    },
+    "ruta_como_llegar": {
+      "desde_domicilio": "Jr. Las Gardenias 342, Surquillo",
+      "transporte_sugerido": "Metropolitano (Estación Angamos hasta Estación Central / Grau)",
+      "tiempo_estimado": "35 minutos en hora punta",
+      "coordenadas": {
+        "lat": -12.0578,
+        "lng": -77.0162
+      },
+      "pasos_transporte": [
+        { "paso": 1, "detalle": "Tomar el Metropolitano en Estación Angamos hacia Estación Central." },
+        { "paso": 2, "detalle": "Caminar 4 cuadras por Av. Grau hasta la Puerta Principal N° 2 del Hospital Dos de Mayo." },
+        { "paso": 3, "detalle": "Ingresar al Pabellón 3 (Piso 1) - Consultorio de Cardiología Adultos." }
+      ]
+    }
+  }
+}

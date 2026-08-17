@@ -1,0 +1,77 @@
+[
+  {
+    "id": "H001",
+    "nombre": "Hospital Nacional Dos de Mayo",
+    "categoria": "III-1",
+    "patologias_cubiertas": [
+      "Nefropatías / enfermedad renal crónica / diálisis",
+      "Reumatología compleja (Lupus, Vasculitis)",
+      "Inmunología Clínica"
+    ],
+    "departamento": "Lima",
+    "capacidad": "Hospital nacional de alta complejidad. Capaz de continuar terapia renal sustitutiva y manejo integral de LES.",
+    "limitacion": "Verificar cartera de Reumatología para biológicos específicos (Rituximab / Belimumab).",
+    "lat": -12.0558,
+    "lng": -77.0142,
+    "match_score": 96,
+    "direccion": "Parque de la Historia de la Medicina Peruana s/n, Cercado de Lima",
+    "servicios_disponibles": ["Reumatología", "Nefrología", "Laboratorio Inmunológico", "Biopsia Renal"],
+    "servicios_faltantes": []
+  },
+  {
+    "id": "H002",
+    "nombre": "Hospital Nacional Edgardo Rebagliati Martins",
+    "categoria": "III-1 (EsSalud)",
+    "patologias_cubiertas": [
+      "Reumatología pediátrica y adultos",
+      "Nefrología avanzada / Trasplante",
+      "Unidad de Biológicos"
+    ],
+    "departamento": "Lima",
+    "capacidad": "Centro de máxima referencia con cobertura farmacológica de 4ta línea.",
+    "limitacion": "Exclusivo para pacientes asegurados con condición de derechohabiente activo.",
+    "lat": -12.0782,
+    "lng": -77.0421,
+    "match_score": 88,
+    "direccion": "Av. Edgardo Rebagliati 490, Jesús María",
+    "servicios_disponibles": ["Reumatología", "Nefrología", "Farmacia Especializada"],
+    "servicios_faltantes": ["Requiere cambio de seguro SIS a EsSalud"]
+  },
+  {
+    "id": "H003",
+    "nombre": "Hospital Nacional Arzobispo Loayza",
+    "categoria": "III-1",
+    "patologias_cubiertas": [
+      "Neurología y neurodesarrollo complejo",
+      "Medicina Interna General",
+      "Ginecología de alto riesgo"
+    ],
+    "departamento": "Lima",
+    "capacidad": "Hospital nacional para medicina interna y neurología general.",
+    "limitacion": "Cupos de Nefrología saturados (>45 días de espera para primera cita).",
+    "lat": -12.0494,
+    "lng": -77.0426,
+    "match_score": 65,
+    "direccion": "Av. Alfonso Ugarte 848, Cercado de Lima",
+    "servicios_disponibles": ["Reumatología", "Medicina Interna"],
+    "servicios_faltantes": ["Nefrología Inmediata (Demora > 45 días)"]
+  },
+  {
+    "id": "H004",
+    "nombre": "Hospital Nacional Cayetano Heredia",
+    "categoria": "III-1",
+    "patologias_cubiertas": [
+      "Nefrología clínica",
+      "Enfermedades Infecciosas y Tropicales"
+    ],
+    "departamento": "Lima Norte",
+    "capacidad": "Excelente equipo de Nefrología y diálisis ambulatoria.",
+    "limitacion": "Distancia geográfica elevada desde el domicilio de la paciente (San Borja/Surco).",
+    "lat": -12.0232,
+    "lng": -77.0568,
+    "match_score": 74,
+    "direccion": "Av. Honorio Delgado 262, San Martín de Porres",
+    "servicios_disponibles": ["Nefrología", "Laboratorio Central"],
+    "servicios_faltantes": ["Reumatología Especializada de Transición"]
+  }
+]
